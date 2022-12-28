@@ -6,5 +6,6 @@ const site = lume({
 });
 
 site.use(jsx());
+site.copy([".png", ".jpg", ".gif", ".svg"]);
 
 export default site;
