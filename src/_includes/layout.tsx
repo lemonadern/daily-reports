@@ -1,11 +1,11 @@
 import { ComponentChildren } from "npm:preact";
 
 type Props = {
-  title:string;
-  children : ComponentChildren
-}
+  title: string;
+  children: ComponentChildren;
+};
 
-export default ({ title, children }:Props) => (
+export default ({ title, children }: Props) => (
   <html>
     <head>
       <title>{title}</title>
