@@ -15,9 +15,9 @@ const Base = ({ title, children }: Props) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{title}</title>
       </head>
-      <body class="min-h-screen grid grid-rows-[min-content,1fr,min-content]">
+      <body class="min-h-screen grid grid-rows-[min-content,1fr,min-content] grid-cols-1">
         <Header />
-        <article class="">{children}</article>
+        <main>{children}</main>
         <Footer />
       </body>
     </html>
