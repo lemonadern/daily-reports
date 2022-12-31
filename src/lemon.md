@@ -3,45 +3,58 @@ title: 檸檬
 ---
 
 # todo
+
 - katex
 
+# playground
 
-# playground 
 [markdown-it](https://markdown-it.github.io/)
 
 # 見出し
+
 # h1
+
 ## h2
+
 ### h3
+
 #### h4
+
 ##### h5
+
 ###### h6
 
 # リスト
+
 - this is list
   - nested...
 - list
 - list
 
 # 番号付きリスト
+
 1. first
 2. secont
    1. nested
 3. third
-   
+
 # テキストリンク
+
 [esm.sh is here](https://esm.sh)
 
 # 画像
+
 ![profile](/assets/profile.webp)
 
 # テーブル
+
 | Head | Head | Head |
 | ---- | ---- | ---- |
 | Text | Text | Text |
 | Text | Text | Text |
 
 # コードブロック
+
 ```js
 const great = () => {
   console.log("Awesome");
@@ -49,26 +62,26 @@ const great = () => {
 ```
 
 # quote
-> 引用文
-> 引用文
-> > this is quote
+
+> 引用文 引用文
+>
+> this is quote
 
 # コード
+
 `code` is here
 
 ## Emphasis
 
 **This is bold text**
 
-__This is bold text__
+**This is bold text**
 
-*This is italic text*
+_This is italic text_
 
 _This is italic text_
 
 ~~Strikethrough~~
-
-
 
 [link](https://twitter.com/lemonadern/status/1609178312613720064?s=20&t=m609YHaf2yf1qzZRqcyJ-Q)
 
