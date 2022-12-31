@@ -10,7 +10,7 @@ export const windiConfig = defineConfig({
   theme: {
     extend: {
       fontFamily: {
-        "title": ['Fugaz One', "cursive"],
+        "title": ["Fugaz One", "cursive"],
       },
       colors: {
         "color-kakuitsu-primary": "#657664",

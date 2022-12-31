@@ -18,7 +18,11 @@ const Base = ({ title, children }: Props) => {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{title}</title>
-        <link href={`https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap&text=${titleCharacterSet}`} rel="stylesheet"></link>
+        <link
+          href={`https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap&text=${titleCharacterSet}`}
+          rel="stylesheet"
+        >
+        </link>
       </head>
       <body class="min-h-screen grid grid-rows-[min-content,1fr,min-content] grid-cols-1">
         <Header />

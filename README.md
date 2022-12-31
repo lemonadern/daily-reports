@@ -1,11 +1,14 @@
 # Nightly
+
 lemonadern's nightly reports
 
-built using [lume](https://lume.land/) (which is a static site generator for [Deno](https://github.com/denoland/deno))
+built using [lume](https://lume.land/) (which is a static site generator for
+[Deno](https://github.com/denoland/deno))
 
 # TASKS
 
 ## HIGH priority
+
 - [ ] Deployment
 - [ ] Color Scheme
 - [ ] Katex support
@@ -18,6 +21,7 @@ built using [lume](https://lume.land/) (which is a static site generator for [De
   - [ ] by month
 
 ## Others
+
 - [ ] cron jobs
 - [ ] Page search
 - [ ] Hilighting code blocks
