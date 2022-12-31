@@ -376,6 +376,7 @@
     "https://deno.land/x/lume@v1.14.2/deps/path.ts": "5b26eca4cd34944f42a60ac5c5f045e4bb9acb0e05dd6a1fbc0224f67cc7ffe0",
     "https://deno.land/x/lume@v1.14.2/deps/preact.ts": "46ee4ceb475c33e053b05ce80d5e65580428cfc57c6288309b75ec11848b9ef7",
     "https://deno.land/x/lume@v1.14.2/deps/react.ts": "6ce99e14ad6bd9ce09f69c90b5a5597e44be78eab7f334bcab31f4824b12536a",
+    "https://deno.land/x/lume@v1.14.2/deps/windi_css.ts": "aa9cfd8f31f848a8c68546c92691321292a3e52c33118ece7e96a551d26caffc",
     "https://deno.land/x/lume@v1.14.2/deps/yaml.ts": "d1b7a70a128052b91233ebdbd34b7a564e7e177932a66305eecb859bae6c9e57",
     "https://deno.land/x/lume@v1.14.2/middlewares/logger.ts": "69e69099a2e3a8c62d0bb62014381337f6e855c6b330e210e4a705fe8111e10a",
     "https://deno.land/x/lume@v1.14.2/middlewares/no_cache.ts": "95fb11d820d931b6aca268fa30aee22e315c556bd214e135bb9b5ddbcbe039d6",
@@ -395,6 +396,7 @@
     "https://deno.land/x/lume@v1.14.2/plugins/search.ts": "63b29bf31dfdb4cb9146b5e82c5d86190507842f5da0b85be9ed310c15752076",
     "https://deno.land/x/lume@v1.14.2/plugins/source_maps.ts": "c33d46c87bd5afbb8744f1ebe14a398cf6ccba97a09584696b3d05b387d2fe31",
     "https://deno.land/x/lume@v1.14.2/plugins/url.ts": "43d3d47896a7322a8dd34572dedb4baa6f73a382594a2ff7c34a3a064dcc6c9e",
+    "https://deno.land/x/lume@v1.14.2/plugins/windi_css.ts": "b608bfda07e1b3daabeac89ab4abfeb95a8ec0ce795977712201f3384ce53c6a",
     "https://deno.land/x/lume@v1.14.2/plugins/yaml.ts": "df24aac4098dba258f1ac331a3b16ba488a336eb63c51afed8f59201228d583c",
     "https://deno.land/x/nunjucks@3.2.3-2/mod.d.ts": "7ad0a1e485a1890b16591eaa5a7b48fadca831b71b6c5e13c2a4fed279d70190",
     "https://deno.land/x/nunjucks@3.2.3-2/mod.js": "3d7c6c78d98b4d9dedb4317be7898a150854cec270a9faa1ef0a77df549b619a",
@@ -430,7 +432,8 @@
       "preact-render-to-string@5.2.6": "preact-render-to-string@5.2.6_preact@10.11.3",
       "preact@10.11.3": "preact@10.11.3",
       "react-dom@18.2.0": "react-dom@18.2.0_react@18.2.0",
-      "react@18.2.0": "react@18.2.0"
+      "react@18.2.0": "react@18.2.0",
+      "windicss@3.5.6": "windicss@3.5.6"
     },
     "packages": {
       "argparse@2.0.1": {
@@ -508,6 +511,10 @@
       },
       "uc.micro@1.0.6": {
         "integrity": "sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==",
+        "dependencies": {}
+      },
+      "windicss@3.5.6": {
+        "integrity": "sha512-P1mzPEjgFMZLX0ZqfFht4fhV/FX8DTG7ERG1fBLiWvd34pTLVReS5CVsewKn9PApSgXnVfPWwvq+qUsRwpnwFA==",
         "dependencies": {}
       }
     }
