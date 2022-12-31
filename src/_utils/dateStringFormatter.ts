@@ -7,8 +7,8 @@ export const dateStringFormatter = (dateString: string) => {
     month: "2-digit",
     day: "2-digit",
   })
-  .split("/")
-  .join("-");
+    .split("/")
+    .join("-");
 };
 
 Deno.test("happy path 1", () => {
