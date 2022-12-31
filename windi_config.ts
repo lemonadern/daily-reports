@@ -9,6 +9,17 @@ import typography from "npm:windicss/plugin/typography";
 export const windiConfig = defineConfig({
   theme: {
     extend: {
+      colors: {
+        "color-kakuitsu-primary": "#657664",
+        "color-kakuitsu2-primary": "#415740",
+        "color-kakuitsu-secondary": "#F3FAF3",
+        "color-octoammo-primary": "#CCAF87",
+        "color-hakanai-tour-primary": "#413839",
+        "color-hakanai-tour-secondary": "#FDFDFD",
+        "color-tetora-dec-primary": "#9A86BA",
+        "color-tetora-dec-secondary": "#A08ABE",
+        "color-tetora-dec-tertiary": "#FCF8FE",
+      },
       typography: {
         DEFAULT: {
           css: {
