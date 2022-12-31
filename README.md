@@ -1,18 +1,25 @@
 # Nightly
 lemonadern's nightly reports
 
+built using [lume](https://lume.land/) (which is a static site generator for [Deno](https://github.com/denoland/deno))
+
 # TASKS
 
 ## HIGH priority
-- [ ] katex
-- [ ] 画像の最適化
+- [ ] Color Scheme
+- [ ] Katex support
+- [ ] Image optimization
 - [ ] 404 page
-- [ ] ページング
-- [ ] 一覧ページ
-  - [ ] 最新の投稿
-  - [ ] 年ごと
-  - [ ] 月ごと
+- [ ] Pagination
+- [ ] Post list page
+  - [ ] newest
+  - [ ] by year
+  - [ ] by month
 
 ## Others
-- [ ] 全文検索
-- [ ] brack parser (as lume plugin)
+- [ ] Page search
+- [ ] Hilighting code blocks
+- [ ] SEO things
+  - [ ] sitemap
+  - [ ] meta tags
+- [ ] Brack parser (as lume plugin)
