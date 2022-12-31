@@ -1,6 +1,4 @@
-export const twitterLink = "https://twitter.com/lemonadern";
-export const githubLink = "https://github.com/lemonadern";
-
-export const zennLink = "https://zenn.dev/lemonadern";
-
-export const sourceCodeLink = "github.com/";
+export const TWITTER_LINK = "https://twitter.com/lemonadern";
+export const GITHUB_LINK = "https://github.com/lemonadern";
+export const ZENN_LINK = "https://zenn.dev/lemonadern";
+export const SOURCECODE_LINK = "github.com/";

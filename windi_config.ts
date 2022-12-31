@@ -9,6 +9,9 @@ import typography from "npm:windicss/plugin/typography";
 export const windiConfig = defineConfig({
   theme: {
     extend: {
+      fontFamily: {
+        "title": ['Fugaz One', "cursive"],
+      },
       colors: {
         "color-kakuitsu-primary": "#657664",
         "color-kakuitsu2-primary": "#415740",
