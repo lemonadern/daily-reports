@@ -1,1 +1,3 @@
-layout: layouts/post.tsx
+layout: layouts/nightly.tsx
+tags: 
+  - nightly
