@@ -9,7 +9,7 @@ built using [lume](https://lume.land/) (which is a static site generator for
 
 ## HIGH priority
 
-- [ ] Deployment
+- [x] Deployment
 - [ ] Color Scheme
 - [ ] Katex support
 - [ ] Image optimization
