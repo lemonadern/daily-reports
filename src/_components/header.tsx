@@ -7,7 +7,9 @@ export const Header = () => {
       <div class="flex items-center justify-between mx-auto">
         <div class="flex items-center gap-4 text-xl font-title">
           {SITE_NAME}
-          <img class="w-6 fill-sky-800" src="/assets/nights-stay-moon.svg" />
+          <span class="material-symbols-outlined">
+            nights_stay
+          </span>
         </div>
 
         <a href={SOURCECODE_LINK}>

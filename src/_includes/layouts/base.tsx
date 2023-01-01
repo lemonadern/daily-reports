@@ -4,7 +4,7 @@ import { Footer } from "components/footer.tsx";
 import { removeDuplications } from "utils/removeDuplications.ts";
 import { SITE_NAME } from "constants/constants.ts";
 
-const titleCharacterSet = removeDuplications(SITE_NAME).trim();
+const titleCharacterSetString = removeDuplications(SITE_NAME).trim();
 
 type Props = {
   title: string;
@@ -19,10 +19,14 @@ const Base = ({ title, children }: Props) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{title}</title>
         <link
-          href={`https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap&text=${titleCharacterSet}`}
+          href={`https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap&text=${titleCharacterSetString}`}
           rel="stylesheet"
         >
         </link>
+        <link // Nights stay icon
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+        />
       </head>
       <body class="min-h-screen grid grid-rows-[min-content,1fr,min-content] grid-cols-1">
         <Header />
