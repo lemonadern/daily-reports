@@ -23,10 +23,6 @@ const Base = ({ title, children }: Props) => {
           rel="stylesheet"
         >
         </link>
-        <link // Nights stay icon
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
-        />
       </head>
       <body class="min-h-screen grid grid-rows-[min-content,1fr,min-content] grid-cols-1">
         <Header />
