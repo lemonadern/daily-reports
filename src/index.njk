@@ -1,0 +1,21 @@
+---
+layout: layouts/base.tsx
+---
+
+<div class="flex flex-col items-center">
+  <div class="py-8 px-auto">
+    <h1 class="text-xl">Nightlies</h1>
+  </div>
+
+  <div class="flex flex-wrap gap-8 w-1/1 justify-center">
+    {% for post in search.pages("nightly") %}
+      <a href={{ post.data.url }} class="container w-1/5 border rounded-md py-5 hover:bg-gray-100">
+        <article class="flex flex-col text-center w-max mx-auto">
+          <h2 class="text-xl">{{ post.data.date | date('DATE') }}</h2>
+          <p class="text-md pt-3">{{ post.data.overview }}</p>
+        </article>
+      </a>
+    {% endfor %}
+
+  </div>
+</div>
