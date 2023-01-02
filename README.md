@@ -16,6 +16,7 @@ built using [lume](https://lume.land/) (which is a static site generator for
 - [ ] 404 page
 - [ ] Pagination
 - [ ] Post list page
+  - [x] top page
   - [ ] newest
   - [ ] by year
   - [ ] by month
