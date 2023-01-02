@@ -38,6 +38,17 @@ export const windiConfig = defineConfig({
                 color: "#2c5282",
               },
             },
+            ul: {
+              li: {
+                "padding-left": "1.5em",
+                "&::before": {
+                  "background-color": "#808080",
+                },
+              },
+            },
+            code: {
+              "background-color": "#e5e5e5",
+            },
           },
         },
       },
