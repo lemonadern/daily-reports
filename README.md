@@ -24,8 +24,10 @@ built using [lume](https://lume.land/) (which is a static site generator for
 
 - [ ] cron jobs
 - [ ] Typography
-- [ ] Page search
 - [ ] Hilighting code blocks
+- [ ] RSS support
+- [ ] Page search
+- [ ] OG Image
 - [ ] SEO things
   - [ ] sitemap
   - [ ] favicon
