@@ -1,4 +1,5 @@
 import lume from "lume/mod.ts";
+import basePath from "lume/plugins/base_path.ts";
 import jsx from "lume/plugins/jsx_preact.ts";
 import windi_css from "lume/plugins/windi_css.ts";
 import date from "lume/plugins/date.ts";
@@ -12,7 +13,8 @@ const site = lume({
   location: new URL(SITE_URL),
 });
 
-site.use(jsx())
+site.use(basePath())
+  .use(jsx())
   .use(windi_css({ config: windiConfig }))
   .use(date());
 

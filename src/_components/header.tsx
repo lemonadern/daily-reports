@@ -5,8 +5,7 @@ export const Header = () => {
   return (
     <header class="border-b px-6 md:px-8 py-4">
       <div class="flex items-center justify-between mx-auto">
-        {/* todo: fix top page link (GIthub Pages) */}
-        <a href={SITE_URL} class="flex items-center gap-4 text-xl font-title">
+        <a href="/" class="flex items-center gap-4 text-xl font-title">
           {SITE_NAME}
         </a>
 
