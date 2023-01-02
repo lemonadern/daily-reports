@@ -23,9 +23,11 @@ built using [lume](https://lume.land/) (which is a static site generator for
 ## Others
 
 - [ ] cron jobs
+- [ ] Typography
 - [ ] Page search
 - [ ] Hilighting code blocks
 - [ ] SEO things
   - [ ] sitemap
+  - [ ] favicon
   - [ ] meta tags
 - [ ] Brack parser (as lume plugin)
