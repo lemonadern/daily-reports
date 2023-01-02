@@ -24,7 +24,7 @@ const Base = ({ title, children }: Props) => {
         >
         </link>
       </head>
-      <body class="min-h-screen grid grid-rows-[min-content,1fr,min-content] grid-cols-1">
+      <body class="min-h-screen grid grid-rows-[min-content,1fr,min-content] grid-cols-1 bg-fresh-marine-white">
         <Header />
         <main>{children}</main>
         <Footer />

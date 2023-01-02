@@ -22,6 +22,11 @@ export const windiConfig = defineConfig({
         "color-tetora-dec-primary": "#9A86BA",
         "color-tetora-dec-secondary": "#A08ABE",
         "color-tetora-dec-tertiary": "#FCF8FE",
+        "color-tetora-live-dvd-head": "#745B80",
+        "color-tetora-live-dvd-body": "#7475AE",
+        "color-tetora-live-dvd-white": "#FCFDF8",
+        "fresh-marine-blue": "#80c7d8",
+        "fresh-marine-white": "#f0fbfd",
       },
       typography: {
         DEFAULT: {

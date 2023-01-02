@@ -8,6 +8,6 @@ export const NightlyHeader = ({ date, overview }: Props) => (
     <h1 class="text-3xl font-extrabold">
       {date}
     </h1>
-    <p class="text-md text-opacity-60">{overview}</p>
+    <p class="text-md opacity-70">{overview}</p>
   </header>
 );
