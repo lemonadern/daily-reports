@@ -787,8 +787,12 @@
   },
   "npm": {
     "specifiers": {
+      "markdown-it-anchor": "markdown-it-anchor@8.6.6_markdown-it@13.0.1",
       "markdown-it-attrs@4.1.6": "markdown-it-attrs@4.1.6_markdown-it@13.0.1",
       "markdown-it-deflist@2.1.0": "markdown-it-deflist@2.1.0",
+      "markdown-it-emoji": "markdown-it-emoji@2.0.2",
+      "markdown-it-footnote": "markdown-it-footnote@3.0.3",
+      "markdown-it-link-attributes": "markdown-it-link-attributes@4.0.1",
       "markdown-it@13.0.1": "markdown-it@13.0.1",
       "preact": "preact@10.11.3",
       "preact-render-to-string@5.2.6": "preact-render-to-string@5.2.6_preact@10.11.3",
@@ -799,6 +803,21 @@
       "windicss@3.5.6": "windicss@3.5.6"
     },
     "packages": {
+      "@types/linkify-it@3.0.2": {
+        "integrity": "sha512-HZQYqbiFVWufzCwexrvh694SOim8z2d+xJl5UNamcvQFejLY/2YUtzXHYi3cHdI7PMlS8ejH2slRAOJQ32aNbA==",
+        "dependencies": {}
+      },
+      "@types/markdown-it@12.2.3": {
+        "integrity": "sha512-GKMHFfv3458yYy+v/N8gjufHO6MSZKCOXpZc5GXIWWy8uldwfmPn98vp81gZ5f9SVw8YYBctgfJ22a2d7AOMeQ==",
+        "dependencies": {
+          "@types/linkify-it": "@types/linkify-it@3.0.2",
+          "@types/mdurl": "@types/mdurl@1.0.2"
+        }
+      },
+      "@types/mdurl@1.0.2": {
+        "integrity": "sha512-eC4U9MlIcu2q0KQmXszyn5Akca/0jrQmwDRgpAMJai7qBWq4amIQhZyNau4VYGtCeALvW1/NtjzJJ567aZxfKA==",
+        "dependencies": {}
+      },
       "argparse@2.0.1": {
         "integrity": "sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==",
         "dependencies": {}
@@ -819,12 +838,31 @@
         "integrity": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
         "dependencies": { "js-tokens": "js-tokens@4.0.0" }
       },
+      "markdown-it-anchor@8.6.6_markdown-it@13.0.1": {
+        "integrity": "sha512-jRW30YGywD2ESXDc+l17AiritL0uVaSnWsb26f+68qaW9zgbIIr1f4v2Nsvc0+s0Z2N3uX6t/yAw7BwCQ1wMsA==",
+        "dependencies": {
+          "@types/markdown-it": "@types/markdown-it@12.2.3",
+          "markdown-it": "markdown-it@13.0.1"
+        }
+      },
       "markdown-it-attrs@4.1.6_markdown-it@13.0.1": {
         "integrity": "sha512-O7PDKZlN8RFMyDX13JnctQompwrrILuz2y43pW2GagcwpIIElkAdfeek+erHfxUOlXWPsjFeWmZ8ch1xtRLWpA==",
         "dependencies": { "markdown-it": "markdown-it@13.0.1" }
       },
       "markdown-it-deflist@2.1.0": {
         "integrity": "sha512-3OuqoRUlSxJiuQYu0cWTLHNhhq2xtoSFqsZK8plANg91+RJQU1ziQ6lA2LzmFAEes18uPBsHZpcX6We5l76Nzg==",
+        "dependencies": {}
+      },
+      "markdown-it-emoji@2.0.2": {
+        "integrity": "sha512-zLftSaNrKuYl0kR5zm4gxXjHaOI3FAOEaloKmRA5hijmJZvSjmxcokOLlzycb/HXlUFWzXqpIEoyEMCE4i9MvQ==",
+        "dependencies": {}
+      },
+      "markdown-it-footnote@3.0.3": {
+        "integrity": "sha512-YZMSuCGVZAjzKMn+xqIco9d1cLGxbELHZ9do/TSYVzraooV8ypsppKNmUJ0fVH5ljkCInQAtFpm8Rb3eXSrt5w==",
+        "dependencies": {}
+      },
+      "markdown-it-link-attributes@4.0.1": {
+        "integrity": "sha512-pg5OK0jPLg62H4k7M9mRJLT61gUp9nvG0XveKYHMOOluASo9OEF13WlXrpAp2aj35LbedAy3QOCgQCw0tkLKAQ==",
         "dependencies": {}
       },
       "markdown-it@13.0.1": {

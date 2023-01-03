@@ -9,11 +9,12 @@ import date from "lume/plugins/date.ts";
 import { SITE_URL } from "./src/_constants/constants.ts";
 
 import { windiConfig } from "./windi_config.ts";
+import { markdownItConfig } from "./markdown_config.ts";
 
 const site = lume({
   src: "./src",
   location: new URL(SITE_URL),
-});
+}, { markdown: markdownItConfig });
 
 site.use(basePath())
   .use(relativeUrls())
