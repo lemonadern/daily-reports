@@ -715,6 +715,7 @@
     "https://deno.land/x/lume@v1.14.2/deps/http.ts": "7425a72bd89156a6ffc4305057953ee5854dfc7143bb3432524e4b558a857d35",
     "https://deno.land/x/lume@v1.14.2/deps/imagick.ts": "752ad4f244516971daf57ca8bb7d8b6670f78311cbae5338f64f9b2ab324f3b4",
     "https://deno.land/x/lume@v1.14.2/deps/jsonc.ts": "d53a7aceb2aea14dd6772ea39cd4550cd6d631caccb31d81fc832606cd1b961b",
+    "https://deno.land/x/lume@v1.14.2/deps/katex.ts": "8022c89b3cb0f16406f7fe917b8bcd5e574bab4027352c175915b2b317aa363a",
     "https://deno.land/x/lume@v1.14.2/deps/markdown_it.ts": "e48e34de092bc3fc96617372f26190cf3bbf722f4206a9e9e64febbc8fb925c4",
     "https://deno.land/x/lume@v1.14.2/deps/nunjucks.ts": "a8f31de092612a613680944e10b3647ccf91a1db4e099f046c3e73a40f8a6193",
     "https://deno.land/x/lume@v1.14.2/deps/path.ts": "5b26eca4cd34944f42a60ac5c5f045e4bb9acb0e05dd6a1fbc0224f67cc7ffe0",
@@ -734,6 +735,7 @@
     "https://deno.land/x/lume@v1.14.2/plugins/json.ts": "60f3b8616c282a9c592e1974db143b3461999c55b20235eebced87482ebf16bd",
     "https://deno.land/x/lume@v1.14.2/plugins/jsx.ts": "529e290beb2e55c3de8392a5fec2789bf774e48e90e4d2959d8938cdf31b0328",
     "https://deno.land/x/lume@v1.14.2/plugins/jsx_preact.ts": "4fcfa42bf57e48f1a207558187f901652f9f0b417b4d9522e64ea4a9fbbaf2e0",
+    "https://deno.land/x/lume@v1.14.2/plugins/katex.ts": "aef9f60ef3b2a54a17a1be2c34f5133ff46886ba1278046d0abe93957470f611",
     "https://deno.land/x/lume@v1.14.2/plugins/markdown.ts": "dfc6fdd0c2af96da5134567d0d57c3efc5cef3f18c48fa2eb858c7e5db03e12e",
     "https://deno.land/x/lume@v1.14.2/plugins/metas.ts": "4ceae65a6887f1fb4425df1b1ddc2db709c5f9d23717a0774a3a23ee4cc4784f",
     "https://deno.land/x/lume@v1.14.2/plugins/modify_urls.ts": "6c3970b525beb9704499528a428f29f3b76cb1d334ec8d6d5a3f75ff2567e886",
@@ -787,6 +789,7 @@
   },
   "npm": {
     "specifiers": {
+      "katex@0.16.4": "katex@0.16.4",
       "markdown-it-anchor": "markdown-it-anchor@8.6.6_markdown-it@13.0.1",
       "markdown-it-attrs@4.1.6": "markdown-it-attrs@4.1.6_markdown-it@13.0.1",
       "markdown-it-deflist@2.1.0": "markdown-it-deflist@2.1.0",
@@ -822,6 +825,10 @@
         "integrity": "sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==",
         "dependencies": {}
       },
+      "commander@8.3.0": {
+        "integrity": "sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==",
+        "dependencies": {}
+      },
       "entities@3.0.1": {
         "integrity": "sha512-WiyBqoomrwMdFG1e0kqvASYfnlb0lp8M5o5Fw2OFq1hNZxxcNk8Ik0Xm7LxzBhuidnZB/UtBqVCgUz3kBOP51Q==",
         "dependencies": {}
@@ -829,6 +836,10 @@
       "js-tokens@4.0.0": {
         "integrity": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
         "dependencies": {}
+      },
+      "katex@0.16.4": {
+        "integrity": "sha512-WudRKUj8yyBeVDI4aYMNxhx5Vhh2PjpzQw1GRu/LVGqL4m1AxwD1GcUp0IMbdJaf5zsjtj8ghP0DOQRYhroNkw==",
+        "dependencies": { "commander": "commander@8.3.0" }
       },
       "linkify-it@4.0.1": {
         "integrity": "sha512-C7bfi1UZmoj8+PQx22XyeXCuBlokoyWQL5pWSP+EI6nzRylyThouddufc2c1NDIcP9k5agmN9fLpA7VNJfIiqw==",

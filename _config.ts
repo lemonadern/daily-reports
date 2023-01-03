@@ -5,6 +5,7 @@ import resolveUrls from "lume/plugins/resolve_urls.ts";
 import jsx from "lume/plugins/jsx_preact.ts";
 import windi_css from "lume/plugins/windi_css.ts";
 import date from "lume/plugins/date.ts";
+import katex from "lume/plugins/katex.ts";
 
 import { SITE_URL } from "./src/_constants/constants.ts";
 
@@ -21,7 +22,8 @@ site.use(basePath())
   .use(resolveUrls())
   .use(jsx())
   .use(windi_css({ config: windiConfig }))
-  .use(date());
+  .use(date())
+  .use(katex());
 
 site.copy([".png", ".jpg", ".gif", ".svg", ".webp"]);
 
