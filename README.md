@@ -10,8 +10,8 @@ built using [lume](https://lume.land/) (which is a static site generator for
 ## HIGH priority
 
 - [x] Deployment
-- [ ] Color Scheme
-- [ ] Katex support
+- [x] Color Scheme
+- [x] Katex support
 - [ ] Image optimization
 - [ ] 404 page
 - [ ] Pagination
@@ -24,7 +24,7 @@ built using [lume](https://lume.land/) (which is a static site generator for
 ## Others
 
 - [ ] cron jobs
-- [ ] Typography
+- [x] Typography
 - [ ] Hilighting code blocks
 - [ ] RSS support
 - [ ] Page search
