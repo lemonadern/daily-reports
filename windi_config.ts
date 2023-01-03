@@ -34,15 +34,46 @@ export const windiConfig = defineConfig({
             color: "#333",
             a: {
               "color": "#3182ce",
+              "word-break": "break-all",
+              "text-decoration-line": "none",
               "&:hover": {
                 color: "#2c5282",
+                "text-decoration-line": "underline",
               },
             },
             ul: {
               li: {
                 "padding-left": "1.5em",
                 "&::before": {
-                  "background-color": "#808080",
+                  "background-color": "#727272",
+                },
+                ul: {
+                  li: {
+                    "&::before": {
+                      "border-radius": "0",
+                    },
+                    ul: {
+                      li: {
+                        "&::before": {
+                          "border-radius": "50%",
+                        },
+                        ul: {
+                          li: {
+                            "&::before": {
+                              "border-radius": "0",
+                            },
+                            ul: {
+                              li: {
+                                "&::before": {
+                                  "border-radius": "50%",
+                                },
+                              },
+                            },
+                          },
+                        },
+                      },
+                    },
+                  },
                 },
               },
             },
