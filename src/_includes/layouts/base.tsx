@@ -24,7 +24,11 @@ const Base = ({ title, children }: Props) => {
         >
         </link>
         {/* katex styles */}
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.css"></link>
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.css"
+        >
+        </link>
       </head>
       <body class="min-h-screen grid grid-rows-[min-content,1fr,min-content] grid-cols-1 bg-fresh-marine-white">
         <Header />
