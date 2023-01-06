@@ -80,6 +80,11 @@ export const windiConfig = defineConfig({
             code: {
               "background-color": "#e5e5e5",
             },
+            sup: {
+              a: {
+                "word-break": "normal",
+              },
+            },
           },
         },
       },
