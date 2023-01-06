@@ -1,7 +1,6 @@
 import { ComponentChildren } from "npm:preact";
 import { NightlyHeader } from "components/nightlyHeader.tsx";
 import Base from "./base.tsx";
-import { dateStringFormatter } from "utils/dateStringFormatter.ts";
 
 type Props = {
   title: string;
@@ -9,7 +8,7 @@ type Props = {
   children: ComponentChildren;
 };
 
-const Nightly = ({ title,  overview, children }: Props) => {
+const Nightly = ({ title, overview, children }: Props) => {
   return (
     <Base title={title + " nightly"}>
       <div class="h-1/1">
