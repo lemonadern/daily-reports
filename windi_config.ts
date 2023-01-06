@@ -79,6 +79,20 @@ export const windiConfig = defineConfig({
             },
             code: {
               "background-color": "#e5e5e5",
+              "padding-left": ".25rem",
+              "padding-right": ".25rem",
+              "padding-top": ".1rem",
+              "padding-bottom": ".1rem",
+            },
+            p: {
+              code: {
+                "&::before": {
+                  content: "none",
+                },
+                "&::after": {
+                  content: "none",
+                },
+              },
             },
             sup: {
               a: {
