@@ -1,4 +1,5 @@
 layout: layouts/nightly.tsx
+page_type: nightly
 tags: 
   - nightly
 

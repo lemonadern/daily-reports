@@ -1,5 +1,9 @@
 ---
 layout: layouts/base.tsx
+
+page_type: index
+metas:
+  type: website
 ---
 
 <div class="flex flex-col items-center">
@@ -8,7 +12,7 @@ layout: layouts/base.tsx
   </div>
 
   <div class="flex flex-wrap gap-8 min-w-9/10 <sm:w-8/10 justify-center mx-auto">
-    {% for post in search.pages("nightly", "date=desc") %}
+    {% for post in search.pages("page_type=nightly", "date=desc") %}
       <a href={{ post.data.url }} class="container xl:w-1/4 lg:w-1/3 >lg:w-4/5 border rounded-md py-5 hover:bg-light-300">
         <article class="flex flex-col frex-wrap text-center max-w-1/1 mx-auto px-2">
           <h2 class="text-xl font-semibold">{{ post.data.title | date('DATE') }}</h2>
