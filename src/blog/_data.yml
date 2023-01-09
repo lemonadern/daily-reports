@@ -1,0 +1,9 @@
+layout: layouts/article.tsx
+page_type: article
+tags: 
+  - article
+
+metas: 
+  type: article
+  title: "=title"
+  description: "=overview"
