@@ -5,12 +5,13 @@
 import { defineConfig } from "https://esm.sh/windicss@3.5.6/helpers/index.js?dts";
 // typography plugin is not hosted on esm.sh, npm is used instead.
 import typography from "npm:windicss/plugin/typography";
+import { FONT_FAMILY } from "./src/_constants/constants.ts";
 
 export const windiConfig = defineConfig({
   theme: {
     extend: {
       fontFamily: {
-        "title": ["Fugaz One", "cursive"],
+        "title": [FONT_FAMILY, "cursive"],
       },
       colors: {
         "color-kakuitsu-primary": "#657664",

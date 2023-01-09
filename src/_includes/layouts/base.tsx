@@ -2,7 +2,7 @@ import { ComponentChildren } from "npm:preact";
 import { Header } from "components/header.tsx";
 import { Footer } from "components/footer.tsx";
 import { removeDuplications } from "utils/removeDuplications.ts";
-import { SITE_NAME } from "constants/constants.ts";
+import { FONT_LINK, SITE_NAME } from "constants/constants.ts";
 
 const titleCharacterSetString = removeDuplications(SITE_NAME).trim();
 
@@ -19,7 +19,7 @@ const Base = ({ title, children }: Props) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{title}</title>
         <link
-          href={`https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap&text=${titleCharacterSetString}`}
+          href={`${FONT_LINK}&text=${titleCharacterSetString}`}
           rel="stylesheet"
         >
         </link>
