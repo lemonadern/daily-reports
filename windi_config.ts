@@ -33,6 +33,9 @@ export const windiConfig = defineConfig({
         DEFAULT: {
           css: {
             color: "#333",
+            h1: {
+              "margin-top": "2rem",
+            },
             a: {
               "color": "#3182ce",
               "word-break": "break-all",
