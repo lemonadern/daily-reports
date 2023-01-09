@@ -1,0 +1,9 @@
+layout: layouts/report.tsx
+page_type: monthly
+tags: 
+  - monthly
+
+metas: 
+  type: article
+  title: "=title"
+  description: "=overview"
