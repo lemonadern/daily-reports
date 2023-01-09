@@ -3,7 +3,7 @@ import { SITE_NAME } from "constants/constants.ts";
 
 export const Header = () => {
   return (
-    <header class="border-b px-6 md:px-8 py-3 bg-fresh-marine-blue">
+    <header class="border-b px-6 md:px-8 py-4 bg-fresh-marine-blue">
       <div class="flex items-center justify-between">
         <a
           href="/"
