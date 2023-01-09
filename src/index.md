@@ -15,7 +15,7 @@ overview: 🚧 under construction now 🚧
 ## Reports
 
 - [Nightly](nightly/) :tada:
-- [Weekly](weekly/) :construction:
+- [Weekly](weekly/) :tada:
 - [Monthly](monthly/) :construction:
 
 ## Blog
