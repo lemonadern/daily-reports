@@ -1,5 +1,5 @@
 ---
-layout: layouts/nightly.tsx
+layout: layouts/report.tsx
 title: lemonadern's site
 overview: 🚧 under construction now 🚧
 ---

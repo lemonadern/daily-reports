@@ -1,7 +1,7 @@
 layout: layouts/report.tsx
-page_type: nightly
+page_type: weekly
 tags: 
-  - nightly
+  - weekly
 
 metas: 
   type: article
