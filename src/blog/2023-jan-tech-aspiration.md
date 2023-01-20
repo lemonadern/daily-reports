@@ -23,7 +23,7 @@ published_at: "2023-01-19"
   - [データベース自作入門](https://github.com/starpos/develop-transaction-system)を読む
   - 詳説データベース(O'Reilly)を読む
   - 資料：[自作RDBMSやろうぜ！](https://ryogrid.github.io/dbms-jisaku/)
-- [The Essense of Iterator Pattern](https://www.cs.ox.ac.uk/jeremy.gibbons/publications/iterator.pdf)を読む
+- [The Essence of Iterator Pattern](https://www.cs.ox.ac.uk/jeremy.gibbons/publications/iterator.pdf)を読む
 
 ### Languages
 
