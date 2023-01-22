@@ -40,12 +40,21 @@ export const windiConfig = defineConfig({
               "color": "#3182ce",
               "word-break": "break-all",
               "text-decoration-line": "none",
+              "font-weight": "normal",
               "&:hover": {
                 color: "#2c5282",
                 "text-decoration-line": "underline",
               },
             },
             ul: {
+              code: {
+                "&::before": {
+                  content: "none",
+                },
+                "&::after": {
+                  content: "none",
+                },
+              },
               li: {
                 "padding-left": "1.5em",
                 "&::before": {
@@ -87,6 +96,8 @@ export const windiConfig = defineConfig({
               "padding-right": ".25rem",
               "padding-top": ".1rem",
               "padding-bottom": ".1rem",
+              "font-weight": "normal",
+              "border-radius": "2px",
             },
             p: {
               code: {
