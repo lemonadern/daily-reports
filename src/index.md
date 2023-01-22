@@ -4,13 +4,11 @@ title: lemonadern.dev
 overview: 🚧 under construction now 🚧
 ---
 
-**Note:** This website is **🚧 under construction 🚧** now.
+# About me
 
-## About me
+Web と計算機が好きです。 最近は言語処理系の勉強をしています。
 
-[@lemonadern](https://twitter.com/lemonadern)
-
-Web と計算機が好きです。
+豊田高専に通っています。
 
 ## リンク
 
