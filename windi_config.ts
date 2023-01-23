@@ -40,7 +40,6 @@ export const windiConfig = defineConfig({
               "color": "#3182ce",
               "word-break": "break-all",
               "text-decoration-line": "none",
-              "font-weight": "normal",
               "&:hover": {
                 color: "#2c5282",
                 "text-decoration-line": "underline",
