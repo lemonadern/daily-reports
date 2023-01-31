@@ -26,7 +26,7 @@ Web と計算機が好きです。 最近は言語処理系の勉強をしてい
 
 - [Nightly](nightly/) :tada:
 - [Weekly](weekly/) :tada:
-- [Monthly](monthly/) :construction:
+- [Monthly](monthly/) :tada:
 
 ### Blog
 
