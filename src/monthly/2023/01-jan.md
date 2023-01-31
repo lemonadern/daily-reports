@@ -1,7 +1,7 @@
 ---
 title: "Monthly Report 2023-01"
 overview: はじめての月報
-draft: true
+draft: false
 ---
 
 はじめての月報です。フォーマットはまだ探ってます。
@@ -26,11 +26,13 @@ draft: true
   - lex, yacc など触った
   - parol も少し
 - 正規表現の勉強
-  - 『詳説正規表現』 4章まで
+  - 『詳説正規表現』 4章まで（一旦読了）
 - Haskell に入門
   - LYAHFGG! 6章まで
 
 ## 読んだ本
+
+![１月に読んだ本](jan-books.webp)
 
 ### 技術書
 
@@ -49,6 +51,8 @@ draft: true
   - 檸檬
 - 筒井康隆
   - 旅のラゴス
+- 金城一紀
+  - GO
 
 ## 感想
 
