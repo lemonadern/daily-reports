@@ -13,5 +13,5 @@ nightly_dir=nightly
 template="---\ntitle: \"$iso_date\"\noverview: overview\n---\n\n# やったこと\n- "
 
 echo $iso_date
-mkdir ./src/$nightly_dir/$dir_date
+mkdir -p ./src/$nightly_dir/$dir_date/
 echo $template > src/$nightly_dir/$dir_date/$iso_date\_index.md 
