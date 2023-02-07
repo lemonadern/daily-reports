@@ -11,7 +11,7 @@ permissions:
   contents: read
   pages: write
   id-token: write
-  
+
 concurrency:
   group: "pages"
   cancel-in-progress: true
@@ -23,7 +23,7 @@ jobs:
     steps:
       - name: Setup repo
         uses: actions/checkout@v3
-        
+
       - name: Setup Pages
         uses: actions/configure-pages@v2
 
@@ -35,12 +35,12 @@ jobs:
 
       - name: Build site
         run: deno task build
-        
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           path: _site/
-  
+
   deploy:
     environment:
       name: github-pages
