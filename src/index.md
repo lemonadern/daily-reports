@@ -16,6 +16,7 @@ Web と計算機が好きです。 最近は言語処理系の勉強をしてい
 
 - [GitHub](https://github.com/lemonadern)
 - [Twitter](https://twitter.com/lemonadern)
+- [Scrapbox](https://scrapbox.io/lemonadern/)
 - [Zenn](https://zenn.dev/lemonadern)
 
 ### Book
@@ -24,9 +25,14 @@ Web と計算機が好きです。 最近は言語処理系の勉強をしてい
 
 ### Reports
 
-- [Nightly](nightly/) :tada:
+- [Nightly（日報）](nightly/) :tada:
+
+<!--
+
 - [Weekly](weekly/) :tada:
 - [Monthly](monthly/) :tada:
+
+ -->
 
 ### Blog
 
