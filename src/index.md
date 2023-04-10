@@ -21,7 +21,7 @@ Web と計算機が好きです。 最近は言語処理系の勉強をしてい
 
 ### Book
 
-- [読みたい本リスト（Amazon）](https://www.amazon.co.jp/hz/wishlist/genericItemsPage/14QM3K8A7R548?type=wishlist&filter=unpurchased&sort=priority)
+- [読みたい本リスト（Amazon）](https://www.amazon.co.jp/hz/wishlist/ls/14QM3K8A7R548?type=wishlist&filter=unpurchased&sort=priority&viewType=list)
 
 ### Reports
 
