@@ -6,7 +6,12 @@ overview: 🚧 under construction now 🚧
 
 # About me
 
-Web と計算機が好きです。 最近は言語処理系の勉強をしています。
+Web と計算機が好きです。
+
+勉強していること
+
+- 言語処理系
+- 低レイヤ
 
 豊田高専に通っています。
 
@@ -15,8 +20,8 @@ Web と計算機が好きです。 最近は言語処理系の勉強をしてい
 ### Social
 
 - [GitHub](https://github.com/lemonadern)
-- [Twitter](https://twitter.com/lemonadern)
 - [Scrapbox](https://scrapbox.io/lemonadern/)
+- [Twitter](https://twitter.com/lemonadern)
 - [Zenn](https://zenn.dev/lemonadern)
 
 ### Book
