@@ -1,17 +1,11 @@
 ---
 layout: layouts/report.tsx
-title: lemonadern.dev
-overview: 🚧 under construction now 🚧
+title: Who Am I
+overview: Taishi Naka (lemonadern)
 ---
 
-# About me
-
 Web と計算機が好きです。
-
-勉強していること
-
-- 言語処理系
-- 低レイヤ
+言語処理系とかハイパーバイザのこともやっています。
 
 豊田高専に通っています。
 
