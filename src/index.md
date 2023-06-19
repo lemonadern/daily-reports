@@ -36,3 +36,4 @@ Web と計算機が好きです。
 ### Blog
 
 - [Blog](blog/) :construction:
+- [Essay](essay/) :tada:

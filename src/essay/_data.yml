@@ -1,0 +1,9 @@
+layout: layouts/article.tsx
+page_type: essay
+tags: 
+  - essay
+
+metas: 
+  type: essay
+  title: "=title"
+  description: ""
