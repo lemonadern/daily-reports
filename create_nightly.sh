@@ -10,7 +10,7 @@ if [ $# -eq 1 ]; then
 fi
 
 nightly_dir=nightly
-template="---\ntitle: \"$iso_date\"\noverview: overview\n---\n\n# やったこと\n\n- \n\n本\n\n-\n\n# 思ったこと\n"
+template="---\ntitle: \"$iso_date\"\noverview: overview\n---\n\n# やったこと\n\n- \n\n# 本\n\n-\n\n# 思ったこと\n"
 
 echo $iso_date
 mkdir -p ./src/$nightly_dir/$dir_date/
