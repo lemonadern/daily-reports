@@ -22,9 +22,10 @@ Web と計算機が好きです。
 
 - [読みたい本リスト（Amazon）](https://www.amazon.co.jp/hz/wishlist/ls/14QM3K8A7R548?type=wishlist&filter=unpurchased&sort=priority&viewType=list)
 
-### Reports
+### Others
 
 - [Nightly（日報）](nightly/) :tada:
+- [Essay](essay/) :tada:
 
 <!--
 
@@ -33,7 +34,4 @@ Web と計算機が好きです。
 
  -->
 
-### Blog
-
-- [Blog](blog/) :construction:
-- [Essay](essay/) :tada:
+<!-- - [Blog](blog/) :construction: -->
