@@ -10,7 +10,8 @@
     "esm:update": "deno run -A https://esm.sh/v102 update",
     "esm:remove": "deno run -A https://esm.sh/v102 remove",
     "today": "sh create_todays_nightly.sh",
-    "nightly": "sh create_nightly.sh"
+    "nightly": "sh create_nightly.sh",
+    "essay": "sh create_essay.sh"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
