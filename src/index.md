@@ -4,18 +4,18 @@ title: Who Am I
 overview: Taishi Naka (lemonadern)
 ---
 
-Web と計算機が好きです。 言語処理系とかハイパーバイザのこともやっています。
-
-豊田高専に通っています。
+Web と計算機が好きです。 豊田高専に通っています。
 
 ## リンク
 
 ### Social
 
-- [GitHub](https://github.com/lemonadern)
-- [Scrapbox](https://scrapbox.io/lemonadern/)
-- [Twitter](https://twitter.com/lemonadern)
-- [Zenn](https://zenn.dev/lemonadern)
+- GitHub: https://github.com/lemonadern
+- BlueSky: https://bsky.app/profile/lemonadern.dev
+- Zenn: https://zenn.dev/lemonadern
+- しずみー: https://sizu.me/lemonadern
+- Scrapbox: https://scrapbox.io/lemonadern/
+- Twitter: https://twitter.com/lemonadern
 
 ### Book
 
