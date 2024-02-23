@@ -1,4 +1,4 @@
-import emoji from "npm:markdown-it-emoji";
+import emoji from "npm:markdown-it-emoji@2.0.2";
 import footnote from "npm:markdown-it-footnote";
 import linkAttr from "npm:markdown-it-link-attributes";
 
